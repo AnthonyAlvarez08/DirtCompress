@@ -20,10 +20,10 @@ unzip.o : unzip.c
 terminalio.o : terminalio.c
 	$(CC) $(CFLAGS) -c $? -o $@
 
-list.o : datastuctures/list.c
+list.o : ./datastructures/list.c
 	$(CC) $(CFLAGS) -c $? -o $@
 
-binary_tree.o : datastuctures/binary_tree.c
+binary_tree.o : ./datastructures/binary_tree.c
 	$(CC) $(CFLAGS) -c $? -o $@
 
 clean :

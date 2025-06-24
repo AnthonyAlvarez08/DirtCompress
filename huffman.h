@@ -4,3 +4,4 @@
 #include <stdlib.h>
 
 tree_node_t* encode(char*, size_t);
+// char* decode();

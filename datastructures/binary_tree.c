@@ -1,16 +1,12 @@
 #include "binary_tree.h"
 #include <stdlib.h>
 
-tree_node_t* new_tree() {
-    tree_node_t* res = (tree_node_t*)malloc(sizeof(tree_node_t));
-    res->data = NULL;
-
-    return res;
-}
 
 tree_node_t* new_tree(void* data) {
     tree_node_t* res = (tree_node_t*)malloc(sizeof(tree_node_t));
     res->data = data;
+    res->left = NULL;
+    res->right = NULL;
 
     return res;
 }
