@@ -1,5 +1,13 @@
 {
     "files.associations": {
-        "stdio.h": "c"
-    }
+        "stdio.h": "c",
+        "huffman.h": "c"
+    },
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/home/wataflai/repos/DirtCompress",
+            "binaryPath": "/home/wataflai/repos/DirtCompress/dirt",
+            "binaryArgs": []
+        }
+    ]
 }
