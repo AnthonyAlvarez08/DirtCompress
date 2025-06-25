@@ -16,8 +16,6 @@ void list_append(list_node_t* head, list_node_t* new_node) {
     list_node_t* tail = head;
 
     if (head == NULL) {
-        if (new_node != NULL)
-            *head = *new_node;
         return;
     }
 
